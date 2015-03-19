@@ -3,7 +3,7 @@ import numpy as np
 from matplotlib import pyplot as plt
 
 #Reading the image
-img = cv2.imread('cy3-cy5 overlay_progenesis.JPG')
+img = cv2.imread(ADD image path)
 
 #Apply Gaussian filter on the image
 blur = cv2.GaussianBlur(img,(5,5),0)
