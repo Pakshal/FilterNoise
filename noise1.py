@@ -3,7 +3,7 @@ import numpy as np
 from matplotlib import pyplot as plt
 
 #Reading the image
-img = cv2.imread(ADD image path)
+img = cv2.imread(ADD image path)#Enter the image path.
 
 #Apply Gaussian filter on the image
 blur = cv2.GaussianBlur(img,(5,5),0)
